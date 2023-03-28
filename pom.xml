@@ -48,6 +48,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.19</version>
 		</dependency>
+		<!--	常用工具类	-->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
