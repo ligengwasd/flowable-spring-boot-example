@@ -22,14 +22,13 @@ class FlowableSpringBootExampleApplicationTests {
 	IdentityService identityService;
 	@Resource
 	HistoryService historyService;
-//	@Resource
-//	FormService formService;
 	@Resource
 	DynamicBpmnService dynamicBpmnService;
 
 	@Test
 	void contextLoads() {
-		System.out.println(processEngine);
+		FormService formService = processEngine.getFormService();
+		System.out.println(formService);
 	}
 
 }
