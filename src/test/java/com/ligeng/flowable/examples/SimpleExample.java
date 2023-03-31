@@ -32,7 +32,7 @@ public class SimpleExample {
     public void financialReportTest() {
         // 部署流程定义
         repositoryService.createDeployment()
-                .addClasspathResource("FinancialReportProcess.bpmn20.xml")
+                .addClasspathResource("financial-report.bpmn20.xml")
                 .deploy();
 
         // 启动流程实例
